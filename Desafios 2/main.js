@@ -8,3 +8,4 @@ let precioFinal = cantidadDeseada * precioUnitario;
 
 alert("Este es el costo de su compra: $" + precioFinal)
 
+
