@@ -1,1 +1,25 @@
-<!-- En proceso...-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo E-commerce</title>
+</head>
+<body>
+    <script>
+
+        let producto = {
+            nombre: "Camiseta",
+            precio: 29.99,
+            cantidadDisponible: 10
+        };
+
+        producto.nombre = "Zapatillas";
+        producto.categoria = "calzado";
+        delete producto.cantidadDisponible;
+        console.log(producto);
+        
+    </script>
+    
+</body>
+</html>
